@@ -32,7 +32,7 @@ Robotlegs-vs-PureMVC-demos(AS3)
  
 その他リンク
 --------
-* 公式サンプル集  
+* 公式 Robotlegsサンプル集  
 [https://github.com/robotlegs/robotlegs-demos-Bundle](https://github.com/robotlegs/robotlegs-demos-Bundle)   
 
 このサンプルについて

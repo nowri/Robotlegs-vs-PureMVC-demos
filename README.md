@@ -48,7 +48,8 @@ TumblrのAPIよりランダムに選んだユーザーの画像を読み込み�
 [robotlegs-utilities-Modular](https://github.com/joelhooks/robotlegs-utilities-Modular)  拡張を使う  
 （参考）robotlegs.slideパッケージとrobotlegs.appパッケージで異なるコンテキストを使用し、イベントの送受信をしています。  
 
-* １つのMediatorに複数のViewをマッピングする  
+* １つのMediatorに複数のViewをマッピングする 
+[https://gist.github.com/2867286](https://gist.github.com/2867286)
 （参考）robotlegs.app.view.mediator.MainMediator.as -> setMouseListener()  
 動作には問題ないがこの方法をViewInterfaceMediatorMapと併用するとDIモジュールのWarningメッセージが表示されてしまう。
 
@@ -56,6 +57,3 @@ TumblrのAPIよりランダムに選んだユーザーの画像を読み込み�
 * １つのコマンドで複数のイベントから実行できないか？  
 できないです。複数のコマンドで１つのイベントはできます。  
 （参考）[http://knowledge.robotlegs.org/discussions/questions/353-multiple-events-to-one-command-mapped-from-context-startup](http://knowledge.robotlegs.org/discussions/questions/353-multiple-events-to-one-command-mapped-from-context-startup)  
-
-* １つのMediatorに複数のViewをマッピングする  
-[https://gist.github.com/2867286](https://gist.github.com/2867286)

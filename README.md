@@ -30,13 +30,16 @@ Robotlegs-vs-PureMVC-demos(AS3)
 [Robotlegsのドキュメント](http://d.hatena.ne.jp/hideshi_o/20111230/1325225222)  
 
  
-サンプル
+その他リンク
 --------
 * 公式サンプル集  
 [https://github.com/robotlegs/robotlegs-demos-Bundle](https://github.com/robotlegs/robotlegs-demos-Bundle)   
 
-FAQ
+このサンプルについて
 --------
+TumblrのAPIよりランダムに選んだユーザーの画像を読み込みスライドショー表示しるサンプルアプリです。コードの記述を簡単にするため先読み処理を行なっておらず表示に時間がかかります。
+### FAQ
+
 * プリローダーSWFとメインSWFで同じコンテキストを使うには？  
 [ViewInterfaceMediatorMap](https://github.com/piercer/robotlegs-extensions-ViewInterfaceMediatorMap)拡張を使いそれぞれのドキュメントクラスをInterfaceでマッピングすることで依存させないようにする。  
 （参考）robotlegs.app.ApplicationContext.as  

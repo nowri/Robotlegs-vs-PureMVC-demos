@@ -38,7 +38,7 @@ Robotlegs-vs-PureMVC-demos(AS3)
 このサンプルについて
 --------
 TumblrのAPIよりランダムに選んだユーザーの画像を読み込みスライドショー表示しるサンプルアプリです。コードの記述を簡単にするため先読み処理を行なっておらず表示に時間がかかります。
-### FAQ
+### Robotlegs FAQ
 
 * プリローダーSWFとメインSWFで同じコンテキストを使うには？  
 [ViewInterfaceMediatorMap](https://github.com/piercer/robotlegs-extensions-ViewInterfaceMediatorMap)拡張を使いそれぞれのドキュメントクラスをInterfaceでマッピングすることで依存させないようにする。  

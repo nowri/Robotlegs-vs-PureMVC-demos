@@ -48,8 +48,8 @@ TumblrのAPIよりランダムに選んだユーザーの画像を読み込み�
 [robotlegs-utilities-Modular](https://github.com/joelhooks/robotlegs-utilities-Modular)  拡張を使う  
 （参考）robotlegs.slideパッケージとrobotlegs.appパッケージで異なるコンテキストを使用し、イベントの送受信をしています。  
 
-* １つのMediatorに複数のViewをマッピングする 
-[https://gist.github.com/2867286](https://gist.github.com/2867286)
+* １つのMediatorに複数のViewをマッピングする   
+[https://gist.github.com/2867286](https://gist.github.com/2867286)  
 （参考）robotlegs.app.view.mediator.MainMediator.as -> setMouseListener()  
 動作には問題ないがこの方法をViewInterfaceMediatorMapと併用するとDIモジュールのWarningメッセージが表示されてしまう。
 
